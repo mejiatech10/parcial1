@@ -17,8 +17,8 @@ public class perro {
         this.raza = raza;
         this.edadmeses = edadmeses;
         this.tamaño = tamaño;
-        this.vacunado = vacunado;
-        this.esterilizado = esterilizado;
+        this.vacunado = false;
+        this.esterilizado = false;
         this.adoptado = adoptado;
         this.adoptante = adoptante;
     }
@@ -95,12 +95,17 @@ public class perro {
         this.adoptante = adoptante;
     }
 
-    public vacunar(){
+    public boolean vacunar(){
+        this.vacunado = true ;
+        System.out.println("se vacuno el perro ");
+        return true;
 
     }
 
-    public esterilizar(){
-
+    public boolean esterilizar(){
+        this.esterilizado = true;
+        System.out.println("el perro esta estrilizado");
+        return true;
     }
 
     public marcaradoptados(String adopatante){

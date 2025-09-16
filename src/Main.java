@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner animal = new Scanner(System.in);
         ArrayList<perro> listPerro = new ArrayList<>();
-        perro.add (new perro ("terri","pincher",false));
+        perro.add (new perro ("1","terry","pincher",false));
+
 
 
 
