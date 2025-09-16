@@ -108,16 +108,22 @@ public class perro {
         return true;
     }
 
-    public marcaradoptados(String adopatante){
+    public void marcaradoptados(){
+        return ;
+    }
+
+    public void calcularedadhumanaaprox(){
+        int edad1;
+        System.out.println(" cuantos años tienen ");
+        int edadmeses = animal.nextInt();
+        edad1 = ((edadmeses/12)*7);
+        System.out.println(edad1);
+        return edad1;
+
 
     }
 
-    public calcularedadhumanaaprox(){
-
-
-    }
-
-    public aptoparaapartamento(){
+    public void aptoparaapartamento(){
 
 
     }
